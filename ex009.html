@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Qual o seu país de origem: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick ="Pesquisar()">
+    <div></div>
+    <script>
+        var txtn = window.document.querySelector('input#txtnac')
+        txtn.toUpperCase()
+        function Pasquisar(){
+            if (txtn == "BRASIL") {
+                res.innerHTML += "Você é <strong>brasileiro</strong>"
+            }else{
+                res.innerHTML += "Você é <strong>estrangeiro</strong>"
+            }
+
+        }
+    </script>
+</body>
+</html>
