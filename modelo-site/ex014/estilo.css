@@ -9,6 +9,12 @@ header {
     text-align: center;
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+
+}
+
 section {
     background: white;
     font: normal 10pt Arial;
