@@ -7,6 +7,6 @@ console.log(`O Vetor tem ${num.length} posições`)
 console.log(`O segundo valor do vetor é ${num[1]}`)
 console.log(num.sort())
 
-for (var c = 1; c <= (num.length); c++) {
-    console.log(num[c - 1])
+for (var c = 0; c <= (num.length); c++) {
+    console.log(num[c])
 }
